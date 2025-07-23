@@ -18,7 +18,8 @@
 }
 
 .body{
-    background-color: rgba(103, 171, 234, 0.22);
+  background-color: #f9fbff;
+   
 }
 
 /* Shared class*/
@@ -482,71 +483,88 @@ margin-top: 120px;
     background-color: #d35e0c;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer section*/
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  
+  
+  flex-wrap: wrap;
+  max-width: 1440px;
+  height: 380px;
+  padding: 50px 160px;
+}
+
+.footer-content{
+    max-width: 1120px;
+    height: 248px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    gap: 110px;
+    
+}
+
+.footer-left {
+  max-width: 360px;
+}
+
+.footer-logo {
+  width: 135px;
+  margin-bottom: 15px;
+}
+
+.footer-left p {
+  font-size: 22px;
+  color:rgba(0, 0, 0, 0.5);
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+  flex: 1;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.link-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link-column a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.link-column a:hover {
+  color: #f97316;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
 
 
 
